@@ -22,6 +22,7 @@ import ProjectCard from "./components/ProjectCard";
 
 const GreenButton = styled(Button)`
   &&& {
+    color: white;
     background: #2ebf91;
     margin: 10px;
   }
@@ -29,6 +30,7 @@ const GreenButton = styled(Button)`
 
 const PurpleButton = styled(Button)`
   &&& {
+    color: white;
     background: #8360c3;
     margin: 10px;
   }
@@ -76,11 +78,16 @@ const HomepageHeading = ({ mobile }) => (
       going to do next. I think you can be imprisoned if you think of yourself
       as a noun.” <br /> -- Stephen Fry
     </p>
-    <GreenButton size="small">
+    <GreenButton size="small" href="#projects">
       Check out my projects
       <Icon name="right arrow" />
     </GreenButton>
-    <PurpleButton size="small">
+    <PurpleButton
+      size="small"
+      rel="noopener noreferrer"
+      target="_blank"
+      href="https://drive.google.com/file/d/0B2sSQ6SMk_NWMGRZNlZiWGdKZlhqbVBVY1lMSnpLZUI2NkFN/view?usp=sharing"
+    >
       Download Resume
       <Icon name="right arrow" />
     </PurpleButton>
