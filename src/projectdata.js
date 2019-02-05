@@ -1,4 +1,24 @@
 const projects = [
+  // {
+  //   title: "Find My Rep",
+  //   description:
+  //     "This fully-responsive web app is built with React and Material UI. Allows you to search by state to get your senate and house of representative info.",
+  //   tech: ["React", "Material UI"],
+  //   link: "https://instagramm.netlify.com/",
+  //   frontend_repo: "https://github.com/JJAshcraft/find-my-rep",
+  //   backend_repo: "",
+  //   thumb: "./thumbs/findmyrep.png"
+  // },
+  // {
+  //   title: "Not My DJ",
+  //   description:
+  //     "This fully-responsive web app is built with React and Styled Components. It is built on the Spotify API, and currently pulls in the logged in users playlist. App is for experimenting with Spotify API...limited features at this time. ",
+  //   tech: ["React", "Material UI"],
+  //   link: "https://instagramm.netlify.com/",
+  //   frontend_repo: "https://github.com/JJAshcraft/find-my-rep",
+  //   backend_repo: "",
+  //   thumb: "./thumbs/findmyrep.png"
+  // },
   {
     title: "JasonMoledzki.com (in development)",
     description:
@@ -134,17 +154,6 @@ const projects = [
     backend_repo: "",
     thumb: "./thumbs/interplanetary.png",
     large: "./large/interplanetary.png"
-  },
-  {
-    title: "Instagram Clone ",
-    description:
-      "This is a basic version of Instagram built with React. Learning moment: Working with React-Router for the first time.",
-    tech: ["React", "HTML/CSS"],
-    link: "https://instagramm.netlify.com/",
-    frontend_repo: "https://github.com/JJAshcraft/React-Insta-Clone",
-    backend_repo: "",
-    thumb: "./thumbs/instaclone.png",
-    large: "./large/instaclone.png"
   }
 ];
 
