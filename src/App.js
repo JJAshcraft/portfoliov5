@@ -311,74 +311,6 @@ ResponsiveContainer.propTypes = {
 
 const App = () => (
   <ResponsiveContainer>
-    <Segment style={{ padding: "8em 0em" }} vertical>
-      <Grid container stackable verticalAlign="middle">
-        <Grid.Row>
-          <Grid.Column width={8}>
-            <Header as="h3" style={{ fontSize: "2em" }}>
-              Currently, my work involves helping businesses with the look, feel
-              and function of their online presence.
-            </Header>
-            <p style={{ fontSize: "1.33em" }}>
-              I have the ability to both design and develop for my clients,
-              although I prefer to handle the development side. I've worked with
-              some of the latest frameworks including React/Redux, and I'm
-              constantly on the hunt for new learning opportunities. When I'm
-              not designing and coding, you can find me on the dropzone coaching
-              and mentoring new skydivers.
-            </p>
-            <Header as="h3" style={{ fontSize: "2em" }}>
-              Problem-Solver, Mentor and Leader
-            </Header>
-            <p style={{ fontSize: "1.33em" }}>
-              Many of us start off in life with a direction we think is best,
-              hoping we will be the lucky ones who figure it out the first time
-              around. I worked full-time in the healthcare industry as a
-              Registered Nurse for almost ten years. It took quite a few years
-              to realize that what I loved most about the healthcare industry is
-              the problem-solving and algorithmic structure of the work. During
-              this time, I also honed many valuable skills in teaching,
-              mentoring and leadership. I learned how to learn and how to manage
-              very difficult situations. It was these difficult situations that
-              not only built my character, but led me to skydiving as an outlet.
-              After making hundreds of skydives, it became clear to me that it
-              was time to pursue a career passion and switch from Healthcare
-              (and part-time freelance creative work) to full-time software
-              development. I have also been doing freelance graphic design and
-              web development for almost 10 years on a part-time basis. Last
-              year I went through Hack Reactor prep, and ultimately decided to
-              attend Lambda School to fully immersive myself in software
-              engineering.
-            </p>
-          </Grid.Column>
-          <Grid.Column floated="right" width={6}>
-            <Image
-              bordered
-              rounded
-              size="large"
-              src="./thumbs/muriels_ol.png"
-            />
-
-            <Image bordered rounded size="large" src="./thumbs/caliber.png" />
-            <Image bordered rounded size="large" src="./thumbs/vsc_thumb.png" />
-            <Image bordered rounded size="large" src="./thumbs/melcover.png" />
-          </Grid.Column>
-        </Grid.Row>
-
-        <Header as="h2" style={{ fontSize: "4em", color: "#2ebf91" }}>
-          Dev Projects
-        </Header>
-        <Grid.Row id="projects">
-          <Grid.Column>
-            <Card.Group itemsPerRow={3} centered stackable>
-              {projects.map(project => {
-                return <ProjectCard project={project} key={Math.random()} />;
-              })}
-            </Card.Group>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Segment>
     <Segment id="testimonials" style={{ padding: "0em" }} vertical>
       <Grid celled="internally" columns="equal" stackable>
         <Grid.Row textAlign="center">
@@ -449,6 +381,76 @@ const App = () => (
         </Grid.Row>
       </Grid>
     </Segment>
+    <Segment style={{ padding: "8em 0em" }} vertical>
+      <Grid container stackable verticalAlign="middle">
+        <Grid.Row>
+          <Grid.Column width={8}>
+            <Header as="h3" style={{ fontSize: "2em" }}>
+              Currently, my work involves helping businesses with the look, feel
+              and function of their online presence.
+            </Header>
+            <p style={{ fontSize: "1.33em" }}>
+              I have the ability to both design and develop for my clients,
+              although I prefer to handle the development side. I've worked with
+              some of the latest frameworks including React/Redux, and I'm
+              constantly on the hunt for new learning opportunities. When I'm
+              not designing and coding, you can find me on the dropzone coaching
+              and mentoring new skydivers.
+            </p>
+            <Header as="h3" style={{ fontSize: "2em" }}>
+              Problem-Solver, Mentor and Leader
+            </Header>
+            <p style={{ fontSize: "1.33em" }}>
+              Many of us start off in life with a direction we think is best,
+              hoping we will be the lucky ones who figure it out the first time
+              around. I worked full-time in the healthcare industry as a
+              Registered Nurse for almost ten years. It took quite a few years
+              to realize that what I loved most about the healthcare industry is
+              the problem-solving and algorithmic structure of the work. During
+              this time, I also honed many valuable skills in teaching,
+              mentoring and leadership. I learned how to learn and how to manage
+              very difficult situations. It was these difficult situations that
+              not only built my character, but led me to skydiving as an outlet.
+              After making hundreds of skydives, it became clear to me that it
+              was time to pursue a career passion and switch from Healthcare
+              (and part-time freelance creative work) to full-time software
+              development. I have also been doing freelance graphic design and
+              web development for almost 10 years on a part-time basis. Last
+              year I went through Hack Reactor prep, and ultimately decided to
+              attend Lambda School to fully immersive myself in software
+              engineering.
+            </p>
+          </Grid.Column>
+          <Grid.Column floated="right" width={6}>
+            <Image
+              bordered
+              rounded
+              size="large"
+              src="./thumbs/muriels_ol.png"
+            />
+
+            <Image bordered rounded size="large" src="./thumbs/caliber.png" />
+            <Image bordered rounded size="large" src="./thumbs/vsc_thumb.png" />
+            <Image bordered rounded size="large" src="./thumbs/melcover.png" />
+          </Grid.Column>
+        </Grid.Row>
+
+        <Header as="h2" style={{ fontSize: "4em", color: "#2ebf91" }}>
+          Dev Projects
+        </Header>
+
+        <Grid.Row id="projects">
+          <Grid.Column>
+            <Card.Group itemsPerRow={3} centered stackable>
+              {projects.map(project => {
+                return <ProjectCard project={project} key={Math.random()} />;
+              })}
+            </Card.Group>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+    </Segment>
+
     <Segment id="articles" style={{ padding: "8em 0em" }} vertical>
       <Container text>
         <Image
