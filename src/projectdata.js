@@ -1,4 +1,25 @@
 const projects = [
+  {
+    title: "LS-8 Emulator",
+    description:
+      "This repo contains an implementation of a CPU emulator to learn more about low-level computer architecture. This is an 8-bit computer with 8-bit memory addressing, written in C.",
+    tech: ["C"],
+    link: "",
+    frontend_repo: "",
+    backend_repo:
+      "https://github.com/JJAshcraft/Computer-Architecture/tree/master/ls8",
+    thumb: "./thumbs/code.jpg"
+  },
+  {
+    title: "Data Structures",
+    description:
+      "This repo contains implementations of Linked Lists, Queue's, Binary Search Trees and Heaps in Python.",
+    tech: ["Python", "Data Structures"],
+    link: "",
+    frontend_repo: "",
+    backend_repo: "https://github.com/JJAshcraft/Data-Structures",
+    thumb: "./thumbs/code.jpg"
+  },
   // {
   //   title: "Find My Rep",
   //   description:
@@ -98,6 +119,15 @@ const projects = [
     backend_repo: "https://github.com/JJAshcraft/LambdaMUD-Project",
     thumb: "./thumbs/tikis.png",
     large: "./large/tikis.png"
+  },
+  {
+    title: "Node Server for Lambda Notes",
+    description: "This repo contains a RESTful web server built with NodeJS",
+    tech: ["Node"],
+    link: "",
+    frontend_repo: "",
+    backend_repo: "https://github.com/JJAshcraft/back-end-project-week",
+    thumb: "./thumbs/code.jpg"
   },
   {
     title: "Game of Life",

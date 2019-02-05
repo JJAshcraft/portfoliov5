@@ -26,12 +26,14 @@ const ProjectCard = props => (
         </a>
       </Card.Content>
     ) : null}
-    <Card.Content extra>
-      <a rel="noopener noreferrer" target="_blank" href={props.project.link}>
-        <Icon className="linkify icon" />
-        View Deployed Project
-      </a>
-    </Card.Content>
+    {props.project.link ? (
+      <Card.Content extra>
+        <a rel="noopener noreferrer" target="_blank" href={props.project.link}>
+          <Icon className="linkify icon" />
+          View Deployed Project
+        </a>
+      </Card.Content>
+    ) : null}
   </Card>
 );
 
