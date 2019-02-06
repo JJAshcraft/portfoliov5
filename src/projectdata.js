@@ -38,7 +38,7 @@ const projects = [
     link: "https://notmydj.netlify.com/",
     frontend_repo: "https://github.com/JJAshcraft/findmyrep",
     backend_repo: "",
-    thumb: "./thumbs/findmyrep.png"
+    thumb: "./thumbs/notmydj.png"
   },
   {
     title: "JasonMoledzki.com (in development)",
