@@ -50,6 +50,9 @@ const HomepageHeading = ({ mobile }) => (
       inverted
       style={{
         fontSize: mobile ? "3em" : "4em",
+        color: "#8360c3",
+        textShadow:
+          "2px 5px 14px #000000, 2px 5px 14px #000000, 2px 5px 14px #000000",
         fontWeight: "900",
         marginBottom: 0,
         marginTop: mobile ? "1.5em" : "3em"
@@ -222,13 +225,17 @@ class MobileContainer extends Component {
           <Menu.Item as="a" active>
             Home
           </Menu.Item>
-          <Menu.Item as="a" href="#projects">
+          <Menu.Item as="a" href="#projects" onClick={this.handleSidebarHide}>
             Projects
           </Menu.Item>
-          <Menu.Item as="a" href="#testimonials">
+          <Menu.Item
+            as="a"
+            href="#testimonials"
+            onClick={this.handleSidebarHide}
+          >
             Testimonials
           </Menu.Item>
-          <Menu.Item as="a" href="#articles">
+          <Menu.Item as="a" href="#articles" onClick={this.handleSidebarHide}>
             Articles
           </Menu.Item>
           <Menu.Item
@@ -236,6 +243,7 @@ class MobileContainer extends Component {
             rel="noreferrer noopener"
             target="_blank"
             href="https://twitter.com/ashcraft_jj"
+            onClick={this.handleSidebarHide}
           >
             Twitter
           </Menu.Item>
@@ -244,6 +252,7 @@ class MobileContainer extends Component {
             rel="noreferrer noopener"
             target="_blank"
             href="https://github.com/JJAshcraft"
+            onClick={this.handleSidebarHide}
           >
             GitHub
           </Menu.Item>
@@ -252,6 +261,7 @@ class MobileContainer extends Component {
             rel="noreferrer noopener"
             target="_blank"
             href="https://medium.com/@jjashcraft"
+            onClick={this.handleSidebarHide}
           >
             Medium
           </Menu.Item>
@@ -260,6 +270,7 @@ class MobileContainer extends Component {
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.linkedin.com/in/jjashcraft/"
+            onClick={this.handleSidebarHide}
           >
             LinkedIn
           </Menu.Item>
