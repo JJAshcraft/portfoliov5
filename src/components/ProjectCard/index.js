@@ -12,7 +12,7 @@ const ProjectCard = props => (
     </Card.Content>
     {props.project.frontend_repo ? (
       <Card.Content extra>
-        <a href={props.project.backend_repo}>
+        <a href={props.project.frontend_repo}>
           <Icon className="github square icon" />
           Front-End Repo on GitHub
         </a>

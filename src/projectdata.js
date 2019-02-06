@@ -11,6 +11,16 @@ const projects = [
     thumb: "./thumbs/code.jpg"
   },
   {
+    title: "Find My Rep",
+    description:
+      "This fully-responsive web app is built with React and Material UI. Allows you to search by state to get your senate and house of representative info.",
+    tech: ["React", "Material UI"],
+    link: "https://findmyrep.netlify.com/",
+    frontend_repo: "https://github.com/JJAshcraft/find-my-rep",
+    backend_repo: "",
+    thumb: "./thumbs/findmyrep.png"
+  },
+  {
     title: "Data Structures",
     description:
       "This repo contains implementations of Linked Lists, Queue's, Binary Search Trees and Heaps in Python.",
@@ -20,26 +30,16 @@ const projects = [
     backend_repo: "https://github.com/JJAshcraft/Data-Structures",
     thumb: "./thumbs/code.jpg"
   },
-  // {
-  //   title: "Find My Rep",
-  //   description:
-  //     "This fully-responsive web app is built with React and Material UI. Allows you to search by state to get your senate and house of representative info.",
-  //   tech: ["React", "Material UI"],
-  //   link: "https://instagramm.netlify.com/",
-  //   frontend_repo: "https://github.com/JJAshcraft/find-my-rep",
-  //   backend_repo: "",
-  //   thumb: "./thumbs/findmyrep.png"
-  // },
-  // {
-  //   title: "Not My DJ",
-  //   description:
-  //     "This fully-responsive web app is built with React and Styled Components. It is built on the Spotify API, and currently pulls in the logged in users playlist. App is for experimenting with Spotify API...limited features at this time. ",
-  //   tech: ["React", "Material UI"],
-  //   link: "https://instagramm.netlify.com/",
-  //   frontend_repo: "https://github.com/JJAshcraft/find-my-rep",
-  //   backend_repo: "",
-  //   thumb: "./thumbs/findmyrep.png"
-  // },
+  {
+    title: "Not My DJ",
+    description:
+      "This fully-responsive web app is built with React. It is built on the Spotify API, and currently pulls in the logged in users playlist. App is for experimenting with Spotify API...limited features at this time. ",
+    tech: ["React", "Material UI"],
+    link: "https://notmydj.netlify.com/",
+    frontend_repo: "https://github.com/JJAshcraft/findmyrep",
+    backend_repo: "",
+    thumb: "./thumbs/findmyrep.png"
+  },
   {
     title: "JasonMoledzki.com (in development)",
     description:
