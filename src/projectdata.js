@@ -173,18 +173,18 @@ const projects = [
     backend_repo: "",
     thumb: "./thumbs/sandjarch.png",
     large: "./large/sandjarch.png"
-  },
-  {
-    title: "Interplanetary Packing Guide",
-    description:
-      "This is a basic React application built similar to a todo app, but as a packing guide. Learning Moment: I spent more time on this project learning the better ways to structure a React Application, and learned more about CSS Animations.",
-    tech: ["React", "HTML/CSS"],
-    link: "https://frontend-project-42d1e.firebaseapp.com/",
-    frontend_repo: "https://github.com/JJAshcraft/front-end-project-week",
-    backend_repo: "",
-    thumb: "./thumbs/interplanetary.png",
-    large: "./large/interplanetary.png"
   }
+  // {
+  //   title: "Interplanetary Packing Guide",
+  //   description:
+  //     "This is a basic React application built similar to a todo app, but as a packing guide. Learning Moment: I spent more time on this project learning the better ways to structure a React Application, and learned more about CSS Animations.",
+  //   tech: ["React", "HTML/CSS"],
+  //   link: "https://frontend-project-42d1e.firebaseapp.com/",
+  //   frontend_repo: "https://github.com/JJAshcraft/front-end-project-week",
+  //   backend_repo: "",
+  //   thumb: "./thumbs/interplanetary.png",
+  //   large: "./large/interplanetary.png"
+  // }
 ];
 
 export default projects;
